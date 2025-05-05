@@ -6,7 +6,7 @@ from langchain_core.messages import HumanMessage
 
 #load_dotenv()
 #api_key = os.getenv("GOOGLE_API_KEY")
-api_key = "AIzaSyCrW1ltMGD3cVuK_7P6ZI8fCWrrIf8vzz8"
+api_key = "GOOGLE_API_KEY"
 
 import streamlit as st
 
