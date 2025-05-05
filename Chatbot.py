@@ -6,7 +6,7 @@ import os
 
 #load_dotenv()
 #api_key = os.getenv("GOOGLE_API_KEY")
-api_key = GOOGLE_API_KEY
+#api_key = GOOGLE_API_KEY
 
 import streamlit as st
 
