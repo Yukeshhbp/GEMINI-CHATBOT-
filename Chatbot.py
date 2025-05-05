@@ -24,7 +24,7 @@ def get_gemini_response(input_text):
 
 
 st.set_page_config(page_title = "Q&A demo")
-st.header("Langchain Application💭")
+st.header("💭Langchain Application💭")
 
 input = st.text_input("Input:",key="input")
 
