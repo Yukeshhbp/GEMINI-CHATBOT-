@@ -24,14 +24,14 @@ def get_gemini_response(input_text):
 
 
 st.set_page_config(page_title = "Q&A demo")
-st.header("Langchain Application")
+st.header("Langchain Application💭")
 
 input = st.text_input("Input:",key="input")
 
 
-submit = st.button("Generate")
+submit = st.button("Generate⚙️")
 
 if submit:
     response = get_gemini_response(input)
-    st.subheader("The Response is ")
+    st.subheader("The Response is 🧠 ")
     st.write(response)
