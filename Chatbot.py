@@ -1,8 +1,8 @@
 import langchain_google_genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
-from dotenv import load_dotenv
-import os
+#from dotenv import load_dotenv
+i#mport os
 
 #load_dotenv()
 #api_key = os.getenv("GOOGLE_API_KEY")
