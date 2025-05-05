@@ -4,9 +4,9 @@ from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
 import os
 
-#load_dotenv()
-#api_key = os.getenv("GOOGLE_API_KEY")
-api_key = "AIzaSyCrW1ltMGD3cVuK_7P6ZI8fCWrrIf8vzz8"
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
+#api_key = "AIzaSyCrW1ltMGD3cVuK_7P6ZI8fCWrrIf8vzz8"
 import streamlit as st
 
 def get_gemini_response(input_text):
