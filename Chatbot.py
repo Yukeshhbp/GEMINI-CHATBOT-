@@ -4,8 +4,8 @@ from langchain_core.messages import HumanMessage
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+#load_dotenv()
+#api_key = os.getenv("GOOGLE_API_KEY")
 
 import streamlit as st
 
