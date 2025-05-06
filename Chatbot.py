@@ -27,7 +27,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 
 # Direct API key (secure this in real apps)
-api_key = "GOOGLE_API_KEY"
+#api_key = "GOOGLE_API_KEY"
 
 # Gemini response function
 def get_gemini_response(input_text):
